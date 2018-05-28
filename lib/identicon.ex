@@ -1,5 +1,16 @@
 defmodule Identicon do
+  @moduledoc """
+    Generates a unique identicon for every unique string
+  """
 
+  @doc """
+    Calls all the functions necessary to build an identicon from a string
+    In the example below calling main will generate an identicon and save in the project root.
+  
+  ## Examples
+      iex> Identicon.main("your_name")
+      :ok
+  """
   def main(input) do
     input
     |> hash_input

@@ -1,20 +1,24 @@
 # Identicon
 
-Cool Elixir identicon generator.
+Cool Elixir GitHub-like identicon generator.
 
-## Installation
+## How to run this app locally
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+* Clone the repo
+* run `mix deps.get`
+* run `mix test`
+* You should see a your_name.png file created in the root of your project.
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
 ```
+## Generate docs
+
+- Run `mix docs`
+- Open `/docs/index.html`
+
+Refer to the hex docs' own documentation to learn how you can generate an ePub file of the docs.
+
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+```
